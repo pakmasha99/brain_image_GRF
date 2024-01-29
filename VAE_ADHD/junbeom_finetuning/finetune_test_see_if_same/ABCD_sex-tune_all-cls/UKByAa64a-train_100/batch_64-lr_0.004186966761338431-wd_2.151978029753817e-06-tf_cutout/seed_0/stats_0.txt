@@ -1,0 +1,3 @@
+"main_optuna_fix_see_if_same.py --pretrained_path /sdcc/u/dyhan316/misc_VAE/junbeom_weights/UKByAa64a.pth --mode finetuning --train_num 100 --layer_control tune_all --stratify strat --random_seed 0 --task ABCD_sex --input_option yAware --batch_size 64 --save_path finetune_test_see_if_same --binary_class True --run_where sdcc"
+{"epoch": 0, "training_loss": 71.90487599372864, "training_acc": 50.0, "val_loss": 18.117818236351013, "val_acc": 56.0}
+{"epoch": 1, "training_loss": 73.97989773750305, "training_acc": 52.0, "val_loss": 17.61218160390854, "val_acc": 56.0}

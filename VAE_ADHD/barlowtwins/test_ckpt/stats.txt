@@ -1,0 +1,2 @@
+barlowtwins/main_3D.py /scratch/connectome/3DCNN/data/1.ABCD/1.sMRI_fmriprep/preprocessed_masked --checkpoint-dir barlowtwins/test_ckpt --batch-size 12 --print-freq 1 --save-every 10 --epochs 60
+{"epoch": 0, "step": 0, "lr_weights": 0.0, "lr_biases": 0.0, "loss": 37138.953125, "time": 115}

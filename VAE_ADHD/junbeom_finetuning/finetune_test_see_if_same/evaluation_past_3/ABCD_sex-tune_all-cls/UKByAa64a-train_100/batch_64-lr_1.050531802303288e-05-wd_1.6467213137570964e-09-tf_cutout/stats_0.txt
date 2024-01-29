@@ -1,0 +1,13 @@
+"main_optuna.py --pretrained_path /sdcc/u/dyhan316/misc_VAE/junbeom_weights/UKByAa64a.pth --mode finetuning --train_num 100 --layer_control tune_all --stratify strat --random_seed 0 --task ABCD_sex --input_option yAware --batch_size 64 --save_path finetune_test_see_if_same --binary_class True --run_where sdcc --eval_mode True --learning_rate 1.050531802303288e-05 --weight_decay 1.6467213137570964e-09 --BN inst"
+{"epoch": 0, "training_loss": 69.40033650398254, "training_acc": 52.0, "val_loss": 17.277242243289948, "val_acc": 56.0}
+{"epoch": 1, "training_loss": 69.36252999305725, "training_acc": 52.0, "val_loss": 17.254723608493805, "val_acc": 56.0}
+{"epoch": 2, "training_loss": 69.16836428642273, "training_acc": 52.0, "val_loss": 17.267826199531555, "val_acc": 56.0}
+{"epoch": 3, "training_loss": 69.0929343700409, "training_acc": 52.0, "val_loss": 17.30232983827591, "val_acc": 56.0}
+{"epoch": 4, "training_loss": 69.04540300369263, "training_acc": 52.0, "val_loss": 17.343078553676605, "val_acc": 56.0}
+{"epoch": 5, "training_loss": 69.02006912231445, "training_acc": 52.0, "val_loss": 17.33109951019287, "val_acc": 56.0}
+{"epoch": 6, "training_loss": 69.12945556640625, "training_acc": 52.0, "val_loss": 17.29935109615326, "val_acc": 56.0}
+{"epoch": 7, "training_loss": 68.97637486457825, "training_acc": 52.0, "val_loss": 17.30203926563263, "val_acc": 56.0}
+{"epoch": 8, "training_loss": 69.09525632858276, "training_acc": 52.0, "val_loss": 17.338275909423828, "val_acc": 56.0}
+{"epoch": 9, "training_loss": 68.78038215637207, "training_acc": 52.0, "val_loss": 17.324648797512054, "val_acc": 56.0}
+{"epoch": 10, "training_loss": 68.89094376564026, "training_acc": 52.0, "val_loss": 17.36452430486679, "val_acc": 56.0}
+{"epoch": 11, "training_loss": 68.6349503993988, "training_acc": 53.0, "val_loss": 17.399676144123077, "val_acc": 56.0}

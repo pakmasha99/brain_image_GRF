@@ -1,0 +1,4 @@
+"main_modify.py --pretrained_path None --mode finetuning --train_num 10 --layer_control freeze --stratify strat --random_seed 0 --task test_age --input_option yAware --learning_rate 0.01 --batch_size 8 --weight_decay 0.03 --BN inst --save_path finetune_results_InstanceBN"
+{"epoch": 0, "training_loss": 5008.50703125, "training_acc": 0.0, "val_loss": 2610.193359375, "val_acc": 0.0}
+{"epoch": 1, "training_loss": 3871.903125, "training_acc": 0.0, "val_loss": 1818.09228515625, "val_acc": 0.0}
+{"epoch": 2, "training_loss": 2902.193115234375, "training_acc": 0.0, "val_loss": 1178.0037841796875, "val_acc": 0.0}

@@ -1,0 +1,4 @@
+{"mode": 1, "nb_epochs_per_saving": 10, "pin_mem": true, "num_cpu_workers": 2, "nb_epochs": 300, "cuda": true, "task": "ADNI_ALZ_ADCN", "tf": "cutout", "model": "DenseNet", "patience": 20, "valid_ratio": 0.25, "data": "/hpcgpfs01/scratch/dyhan316/VAE_ADHD_data/ADNI_T1_data", "label": "./csv/fsdat_baseline.csv", "task_type": "cls", "label_name": "Dx.new", "num_classes": 1, "task_name": "AD/CN", "lr": 211.60917143087113, "weight_decay": 4.07683179694613e-10, "BN": "inst", "foreach": "False", "batch_size": 64, "binary_class": true, "save_path": "finetune_test_same_seed", "stratify": "strat", "layer_control": "freeze", "pretrained_path": "UKByAa64a.pth", "train_num": 300, "resize_method": "reshape", "input_size": [1, 80, 80, 80], "random_seed": 0, "fold": 4}
+{"epoch": 37, "training_loss": 1678571.853515625, "training_acc": 58.0, "val_loss": 46193.06686401367, "val_acc": 69.33333333333333}
+{"val_loss": 81458.65380859375, "val_acc": 72.0}
+{"AUROC": 0.7865961199294533}

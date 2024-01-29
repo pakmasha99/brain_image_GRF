@@ -1,0 +1,21 @@
+"main_optuna_fix_3.py --pretrained_path /scratch/connectome/study_group/VAE_ADHD/junbeom_weights/UKByAa64a.pth --mode finetuning --train_num 80 --layer_control tune_all --stratify strat --random_seed 0 --task ABCD_sex --input_option yAware --batch_size 64 --save_path finetune_ABCD_fix_3_early_loss --binary_class True --run_where lab --early_criteria loss"
+{"epoch": 0, "training_loss": 55.6239595413208, "training_acc": 52.5, "val_loss": 13.8499116897583, "val_acc": 50.0, "val_auroc": 0.6, "time": 17.66}
+{"epoch": 1, "training_loss": 55.32162666320801, "training_acc": 52.5, "val_loss": 13.869707584381104, "val_acc": 50.0, "val_auroc": 0.41, "time": 33.39}
+{"epoch": 2, "training_loss": 55.40022277832031, "training_acc": 52.5, "val_loss": 13.928817510604858, "val_acc": 50.0, "val_auroc": 0.56, "time": 49.43}
+{"epoch": 3, "training_loss": 55.32536029815674, "training_acc": 52.5, "val_loss": 13.871568441390991, "val_acc": 50.0, "val_auroc": 0.53, "time": 64.57}
+{"epoch": 4, "training_loss": 55.38889026641846, "training_acc": 52.5, "val_loss": 13.87077808380127, "val_acc": 50.0, "val_auroc": 0.27, "time": 79.04}
+{"epoch": 5, "training_loss": 55.38951873779297, "training_acc": 52.5, "val_loss": 13.914936780929565, "val_acc": 50.0, "val_auroc": 0.52, "time": 94.09}
+{"epoch": 6, "training_loss": 55.40314292907715, "training_acc": 52.5, "val_loss": 13.906792402267456, "val_acc": 50.0, "val_auroc": 0.55, "time": 109.71}
+{"epoch": 7, "training_loss": 55.41166877746582, "training_acc": 52.5, "val_loss": 13.887898921966553, "val_acc": 50.0, "val_auroc": 0.63, "time": 124.91}
+{"epoch": 8, "training_loss": 55.37094020843506, "training_acc": 52.5, "val_loss": 13.892568349838257, "val_acc": 50.0, "val_auroc": 0.77, "time": 139.57}
+{"epoch": 9, "training_loss": 55.35837650299072, "training_acc": 52.5, "val_loss": 13.861099481582642, "val_acc": 50.0, "val_auroc": 0.6, "time": 154.69}
+{"epoch": 10, "training_loss": 55.52446174621582, "training_acc": 47.5, "val_loss": 13.86195421218872, "val_acc": 50.0, "val_auroc": 0.64, "time": 170.19}
+{"epoch": 11, "training_loss": 55.4091911315918, "training_acc": 50.0, "val_loss": 13.919419050216675, "val_acc": 50.0, "val_auroc": 0.63, "time": 187.55}
+{"epoch": 12, "training_loss": 55.36556053161621, "training_acc": 52.5, "val_loss": 13.99351954460144, "val_acc": 50.0, "val_auroc": 0.58, "time": 203.53}
+{"epoch": 13, "training_loss": 55.55329513549805, "training_acc": 52.5, "val_loss": 14.025928974151611, "val_acc": 50.0, "val_auroc": 0.66, "time": 219.32}
+{"epoch": 14, "training_loss": 55.67848205566406, "training_acc": 52.5, "val_loss": 14.090360403060913, "val_acc": 50.0, "val_auroc": 0.63, "time": 235.03}
+{"epoch": 15, "training_loss": 55.75958442687988, "training_acc": 52.5, "val_loss": 14.152624607086182, "val_acc": 50.0, "val_auroc": 0.53, "time": 250.94}
+{"epoch": 16, "training_loss": 55.96286582946777, "training_acc": 52.5, "val_loss": 14.103536605834961, "val_acc": 50.0, "val_auroc": 0.56, "time": 267.04}
+{"epoch": 17, "training_loss": 55.76136493682861, "training_acc": 52.5, "val_loss": 13.952397108078003, "val_acc": 50.0, "val_auroc": 0.47, "time": 282.85}
+{"epoch": 18, "training_loss": 55.379642486572266, "training_acc": 52.5, "val_loss": 13.864048719406128, "val_acc": 50.0, "val_auroc": 0.5, "time": 298.53}
+{"epoch": 19, "training_loss": 55.38214683532715, "training_acc": 57.5, "val_loss": 13.887662887573242, "val_acc": 50.0, "val_auroc": 0.69, "time": 314.7}

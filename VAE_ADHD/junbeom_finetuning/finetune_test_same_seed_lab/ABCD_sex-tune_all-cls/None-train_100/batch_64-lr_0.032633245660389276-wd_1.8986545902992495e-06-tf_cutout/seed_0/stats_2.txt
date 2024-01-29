@@ -1,0 +1,2 @@
+"main_optuna_fix.py --pretrained_path None --mode finetuning --train_num 100 --layer_control tune_all --stratify strat --random_seed 0 --task ABCD_sex --input_option yAware --batch_size 64 --save_path finetune_test_same_seed_lab --binary_class True --run_where lab"
+{"epoch": 0, "training_loss": 2871.9856185913086, "training_acc": 49.0, "val_loss": NaN, "val_acc": 52.0}

@@ -1,0 +1,4 @@
+{"mode": 1, "nb_epochs_per_saving": 10, "pin_mem": true, "num_cpu_workers": 2, "nb_epochs": 100, "cuda": true, "task": "ADNI_sex", "tf": "cutout", "model": "DenseNet", "patience": 20, "valid_ratio": 0.25, "data": "/hpcgpfs01/scratch/dyhan316/VAE_ADHD_data/ADNI_T1_data", "label": "./csv/fsdat_baseline.csv", "task_type": "cls", "label_name": "PTGENDER", "num_classes": 1, "task_name": "M/F", "batch_size": 16, "lr": 1e-08, "weight_decay": 1e-09, "binary_class": true, "save_path": "finetune_results_InstanceBN", "stratify": "strat", "layer_control": "tune_all", "pretrained_path": "None", "train_num": 20, "resize_method": "reshape", "input_size": [1, 80, 80, 80], "random_seed": 4, "fold": 0}
+{"epoch": 35, "training_loss": 0.6941099882125854, "training_acc": 50.0, "val_loss": 0.6848829984664917, "val_acc": 60.0}
+{"test_loss": 0.6942967943069509, "test_acc": 49.77553310886644}
+{"AUROC": 0.40617737272710097}

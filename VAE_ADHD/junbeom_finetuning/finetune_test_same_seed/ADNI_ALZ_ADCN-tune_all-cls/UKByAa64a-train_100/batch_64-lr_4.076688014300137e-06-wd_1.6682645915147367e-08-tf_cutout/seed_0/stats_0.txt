@@ -1,0 +1,6 @@
+"main_optuna_fix.py --pretrained_path /sdcc/u/dyhan316/misc_VAE/junbeom_weights/UKByAa64a.pth --mode finetuning --train_num 100 --layer_control tune_all --stratify strat --random_seed 0 --task ADNI_ALZ_ADCN --input_option yAware --batch_size 64 --save_path finetune_test_same_seed --binary_class True --run_where sdcc"
+{"epoch": 0, "training_loss": 70.89229607582092, "training_acc": 28.0, "val_loss": 17.57558137178421, "val_acc": 28.0}
+{"epoch": 1, "training_loss": 70.33979511260986, "training_acc": 25.0, "val_loss": 17.39368736743927, "val_acc": 28.0}
+{"epoch": 2, "training_loss": 69.2904121875763, "training_acc": 52.0, "val_loss": 17.22225546836853, "val_acc": 28.0}
+{"epoch": 3, "training_loss": 69.00512051582336, "training_acc": 60.0, "val_loss": 17.038074135780334, "val_acc": 28.0}
+{"epoch": 4, "training_loss": 68.102463722229, "training_acc": 72.0, "val_loss": 16.86171293258667, "val_acc": 28.0}

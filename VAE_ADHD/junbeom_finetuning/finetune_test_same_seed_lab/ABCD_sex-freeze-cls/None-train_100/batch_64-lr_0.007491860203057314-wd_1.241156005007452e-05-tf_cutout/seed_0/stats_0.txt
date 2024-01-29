@@ -1,0 +1,9 @@
+"main_optuna_fix.py --pretrained_path None --mode finetuning --train_num 100 --layer_control freeze --stratify strat --random_seed 0 --task ABCD_sex --input_option yAware --batch_size 64 --save_path finetune_test_same_seed_lab --binary_class True --run_where lab"
+{"epoch": 0, "training_loss": 95.7661566734314, "training_acc": 50.0, "val_loss": 19.832080602645874, "val_acc": 44.0}
+{"epoch": 1, "training_loss": 81.94750165939331, "training_acc": 48.0, "val_loss": 24.82912242412567, "val_acc": 56.0}
+{"epoch": 2, "training_loss": 101.73689937591553, "training_acc": 52.0, "val_loss": 17.701922357082367, "val_acc": 56.0}
+{"epoch": 3, "training_loss": 71.00044655799866, "training_acc": 54.0, "val_loss": 23.056264221668243, "val_acc": 44.0}
+{"epoch": 4, "training_loss": 89.71310377120972, "training_acc": 48.0, "val_loss": 21.522194147109985, "val_acc": 44.0}
+{"epoch": 5, "training_loss": 80.10765814781189, "training_acc": 48.0, "val_loss": 17.322655022144318, "val_acc": 56.0}
+{"epoch": 6, "training_loss": 73.14342856407166, "training_acc": 52.0, "val_loss": 19.123119115829468, "val_acc": 56.0}
+{"epoch": 7, "training_loss": 78.91925716400146, "training_acc": 52.0, "val_loss": 17.2819584608078, "val_acc": 56.0}

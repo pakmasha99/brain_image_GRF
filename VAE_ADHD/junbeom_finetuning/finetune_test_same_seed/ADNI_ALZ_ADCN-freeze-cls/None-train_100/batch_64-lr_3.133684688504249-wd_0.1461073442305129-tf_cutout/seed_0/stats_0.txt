@@ -1,0 +1,4 @@
+"main_optuna_fix.py --pretrained_path None --mode finetuning --train_num 100 --layer_control freeze --stratify strat --random_seed 0 --task ADNI_ALZ_ADCN --input_option yAware --batch_size 64 --save_path finetune_test_same_seed --binary_class True --run_where sdcc"
+{"epoch": 0, "training_loss": 14804.81021118164, "training_acc": 42.0, "val_loss": 3783.0345153808594, "val_acc": 72.0}
+{"epoch": 1, "training_loss": 15490.303344726562, "training_acc": 60.0, "val_loss": 1470.483684539795, "val_acc": 72.0}
+{"epoch": 2, "training_loss": 5295.571701049805, "training_acc": 72.0, "val_loss": 1295.6732749938965, "val_acc": 28.0}

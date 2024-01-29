@@ -1,0 +1,8 @@
+"main_optuna_fix_3.py --pretrained_path /scratch/connectome/study_group/VAE_ADHD/junbeom_weights/UKByAa64a.pth --mode finetuning --train_num 80 --layer_control tune_all --stratify strat --random_seed 0 --task ABCD_sex --input_option yAware --batch_size 64 --save_path finetune_ABCD_fix_3_early_loss --binary_class True --run_where lab --early_criteria loss"
+{"epoch": 0, "training_loss": 58.48105239868164, "training_acc": 52.5, "val_loss": 14.057036638259888, "val_acc": 50.0, "val_auroc": 0.37, "time": 18.62}
+{"epoch": 1, "training_loss": 58.088852882385254, "training_acc": 45.0, "val_loss": 13.86387586593628, "val_acc": 50.0, "val_auroc": 0.42, "time": 36.87}
+{"epoch": 2, "training_loss": 55.50996971130371, "training_acc": 47.5, "val_loss": 13.864752054214478, "val_acc": 50.0, "val_auroc": 0.32, "time": 54.97}
+{"epoch": 3, "training_loss": 55.42505931854248, "training_acc": 52.5, "val_loss": 13.866262435913086, "val_acc": 50.0, "val_auroc": 0.74, "time": 71.96}
+{"epoch": 4, "training_loss": 55.400818824768066, "training_acc": 52.5, "val_loss": 13.8687264919281, "val_acc": 50.0, "val_auroc": 0.61, "time": 89.17}
+{"epoch": 5, "training_loss": 55.47089195251465, "training_acc": 52.5, "val_loss": 13.865607976913452, "val_acc": 50.0, "val_auroc": 0.7, "time": 106.73}
+{"epoch": 6, "training_loss": 55.53247833251953, "training_acc": 47.5, "val_loss": 13.866932392120361, "val_acc": 50.0, "val_auroc": 0.51, "time": 123.91}

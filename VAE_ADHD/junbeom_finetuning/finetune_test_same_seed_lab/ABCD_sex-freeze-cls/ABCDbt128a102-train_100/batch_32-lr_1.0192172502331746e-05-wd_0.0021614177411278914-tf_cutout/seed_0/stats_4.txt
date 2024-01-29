@@ -1,0 +1,10 @@
+"main_optuna.py --pretrained_path /scratch/connectome/dyhan316/VAE_ADHD/barlowtwins/pretrain_results/ABCDbt128a102.pth --mode finetuning --train_num 100 --layer_control freeze --stratify strat --random_seed 0 --task ABCD_sex --input_option BT_org --batch_size 32 --save_path finetune_test_same_seed_lab --binary_class True --run_where lab --eval_mode False"
+{"epoch": 0, "training_loss": 69.08818244934082, "training_acc": 53.0, "val_loss": 17.33253449201584, "val_acc": 52.0}
+{"epoch": 1, "training_loss": 69.03264284133911, "training_acc": 53.0, "val_loss": 17.33425408601761, "val_acc": 52.0}
+{"epoch": 2, "training_loss": 69.06575918197632, "training_acc": 53.0, "val_loss": 17.336130142211914, "val_acc": 52.0}
+{"epoch": 3, "training_loss": 69.06971168518066, "training_acc": 53.0, "val_loss": 17.335350811481476, "val_acc": 52.0}
+{"epoch": 4, "training_loss": 69.07066345214844, "training_acc": 53.0, "val_loss": 17.33451932668686, "val_acc": 52.0}
+{"epoch": 5, "training_loss": 69.06348156929016, "training_acc": 53.0, "val_loss": 17.333972454071045, "val_acc": 52.0}
+{"epoch": 6, "training_loss": 69.07806444168091, "training_acc": 53.0, "val_loss": 17.333535850048065, "val_acc": 52.0}
+{"epoch": 7, "training_loss": 69.06286334991455, "training_acc": 53.0, "val_loss": 17.33381599187851, "val_acc": 52.0}
+{"epoch": 8, "training_loss": 69.07362794876099, "training_acc": 53.0, "val_loss": 17.334429919719696, "val_acc": 52.0}

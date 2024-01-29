@@ -1,0 +1,4 @@
+"main_modify.py --pretrained_path None --mode finetuning --train_num 100 --layer_control freeze --stratify strat --random_seed 1 --task ABCD_sex --input_option BT_org --learning_rate 1e-1 --batch_size 16 --weight_decay 1e-2 --BN inst --save_path finetune_results_InstanceBN --run_where lab"
+{"epoch": 0, "training_loss": 8.397942323684692, "training_acc": 45.0, "val_loss": 5.92496545791626, "val_acc": 52.0}
+{"epoch": 1, "training_loss": 2.6385403633117677, "training_acc": 63.0, "val_loss": 1.93809015750885, "val_acc": 52.0}
+{"epoch": 2, "training_loss": 1.4144597625732422, "training_acc": 47.0, "val_loss": 1.1306903076171875, "val_acc": 48.0}

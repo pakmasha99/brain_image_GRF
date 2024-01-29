@@ -1,0 +1,8 @@
+"main_optuna_fix.py --pretrained_path None --mode finetuning --train_num 300 --layer_control tune_all --stratify strat --random_seed 0 --task ADNI_ALZ_ADCN --input_option yAware --batch_size 64 --save_path finetune_test_same_seed --binary_class True --run_where sdcc"
+{"epoch": 0, "training_loss": 193.9817886352539, "training_acc": 62.0, "val_loss": 43.592903435230255, "val_acc": 73.33333333333333}
+{"epoch": 1, "training_loss": 178.79333519935608, "training_acc": 72.0, "val_loss": 43.540036261081696, "val_acc": 73.33333333333333}
+{"epoch": 2, "training_loss": 180.6415765285492, "training_acc": 72.0, "val_loss": 43.86298352479935, "val_acc": 73.33333333333333}
+{"epoch": 3, "training_loss": 180.0830466747284, "training_acc": 72.0, "val_loss": 44.65516769886017, "val_acc": 73.33333333333333}
+{"epoch": 4, "training_loss": 185.66644883155823, "training_acc": 72.0, "val_loss": 45.851352751255035, "val_acc": 26.666666666666668}
+{"epoch": 5, "training_loss": 187.8839704990387, "training_acc": 72.0, "val_loss": 44.089112758636475, "val_acc": 73.33333333333333}
+{"epoch": 6, "training_loss": 182.63099479675293, "training_acc": 72.0, "val_loss": 43.61197879910469, "val_acc": 73.33333333333333}

@@ -1,0 +1,14 @@
+"main_optuna_fix.py --pretrained_path /sdcc/u/dyhan316/misc_VAE/BT_weights/BT_weights_no_norm5//ABCDbt128a102.pth --mode finetuning --train_num 100 --layer_control tune_all --stratify strat --random_seed 0 --task ABCD_sex --input_option yAware --batch_size 64 --save_path finetune_test_same_seed --binary_class True --run_where sdcc"
+{"epoch": 0, "training_loss": 69.31226682662964, "training_acc": 49.0, "val_loss": 17.371638119220734, "val_acc": 52.0}
+{"epoch": 1, "training_loss": 69.23740100860596, "training_acc": 51.0, "val_loss": 17.373710870742798, "val_acc": 52.0}
+{"epoch": 2, "training_loss": 69.19273114204407, "training_acc": 51.0, "val_loss": 17.379455268383026, "val_acc": 52.0}
+{"epoch": 3, "training_loss": 69.20673322677612, "training_acc": 52.0, "val_loss": 17.38269031047821, "val_acc": 52.0}
+{"epoch": 4, "training_loss": 69.2247097492218, "training_acc": 51.0, "val_loss": 17.38407164812088, "val_acc": 52.0}
+{"epoch": 5, "training_loss": 69.20084357261658, "training_acc": 52.0, "val_loss": 17.38593280315399, "val_acc": 52.0}
+{"epoch": 6, "training_loss": 69.1451985836029, "training_acc": 51.0, "val_loss": 17.387010157108307, "val_acc": 52.0}
+{"epoch": 7, "training_loss": 69.24958920478821, "training_acc": 52.0, "val_loss": 17.38920956850052, "val_acc": 52.0}
+{"epoch": 8, "training_loss": 69.1296112537384, "training_acc": 54.0, "val_loss": 17.39235669374466, "val_acc": 52.0}
+{"epoch": 9, "training_loss": 69.25066065788269, "training_acc": 51.0, "val_loss": 17.394232749938965, "val_acc": 52.0}
+{"epoch": 10, "training_loss": 69.14483904838562, "training_acc": 52.0, "val_loss": 17.395740747451782, "val_acc": 52.0}
+{"epoch": 11, "training_loss": 69.19534254074097, "training_acc": 52.0, "val_loss": 17.39661693572998, "val_acc": 52.0}
+{"epoch": 12, "training_loss": 69.11734104156494, "training_acc": 51.0, "val_loss": 17.39739179611206, "val_acc": 52.0}

@@ -1,0 +1,5 @@
+"main_optuna_fix.py --pretrained_path None --mode finetuning --train_num 100 --layer_control tune_all --stratify strat --random_seed 0 --task ABCD_sex --input_option yAware --batch_size 64 --save_path finetune_test_same_seed_lab --binary_class True --run_where lab"
+{"epoch": 0, "training_loss": 69.39685225486755, "training_acc": 52.0, "val_loss": 23.28622341156006, "val_acc": 44.0}
+{"epoch": 1, "training_loss": 82.44703269004822, "training_acc": 48.0, "val_loss": 17.717374861240387, "val_acc": 56.0}
+{"epoch": 2, "training_loss": 73.10641932487488, "training_acc": 52.0, "val_loss": 17.253299057483673, "val_acc": 56.0}
+{"epoch": 3, "training_loss": 69.11841297149658, "training_acc": 54.0, "val_loss": 17.963463068008423, "val_acc": 56.0}

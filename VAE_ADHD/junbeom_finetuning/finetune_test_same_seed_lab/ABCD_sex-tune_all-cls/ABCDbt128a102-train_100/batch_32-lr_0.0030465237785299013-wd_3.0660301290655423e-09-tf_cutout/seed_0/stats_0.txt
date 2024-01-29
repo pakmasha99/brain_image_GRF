@@ -1,0 +1,4 @@
+"main_optuna.py --pretrained_path /scratch/connectome/dyhan316/VAE_ADHD/barlowtwins/pretrain_results/ABCDbt128a102.pth --mode finetuning --train_num 100 --layer_control tune_all --stratify strat --random_seed 0 --task ABCD_sex --input_option BT_org --batch_size 32 --save_path finetune_test_same_seed_lab --binary_class True --run_where lab --eval_mode False"
+{"epoch": 0, "training_loss": 76.40994429588318, "training_acc": 48.0, "val_loss": 18.34874302148819, "val_acc": 56.0}
+{"epoch": 1, "training_loss": 72.65341401100159, "training_acc": 52.0, "val_loss": 18.28545778989792, "val_acc": 56.0}
+{"epoch": 2, "training_loss": 72.30338597297668, "training_acc": 50.0, "val_loss": 17.349502444267273, "val_acc": 56.0}

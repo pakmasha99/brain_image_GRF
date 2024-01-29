@@ -1,0 +1,8 @@
+"main_modify.py --pretrained_path None --mode finetuning --train_num 100 --layer_control freeze --stratify strat --random_seed 5 --task ADNI_sex --input_option yAware --learning_rate 1e1 --batch_size 16 --weight_decay 1e-7 --BN inst --save_path finetune_results_InstanceBN"
+{"epoch": 0, "training_loss": 949.6181398773193, "training_acc": 51.0, "val_loss": 693.8689990234375, "val_acc": 52.0}
+{"epoch": 1, "training_loss": 805.4008996582031, "training_acc": 51.0, "val_loss": 1252.204501953125, "val_acc": 48.0}
+{"epoch": 2, "training_loss": 1105.1254052734375, "training_acc": 47.0, "val_loss": 853.6799633789062, "val_acc": 52.0}
+{"epoch": 3, "training_loss": 710.3822900390625, "training_acc": 45.0, "val_loss": 552.2929150390624, "val_acc": 48.0}
+{"epoch": 4, "training_loss": 838.0197680664063, "training_acc": 45.0, "val_loss": 328.3632067871094, "val_acc": 52.0}
+{"epoch": 5, "training_loss": 558.9863952636719, "training_acc": 53.0, "val_loss": 320.8108801269531, "val_acc": 52.0}
+{"epoch": 6, "training_loss": 498.5119470214844, "training_acc": 43.0, "val_loss": 618.5049096679687, "val_acc": 48.0}

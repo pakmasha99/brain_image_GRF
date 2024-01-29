@@ -1,0 +1,7 @@
+"main_optuna_fix.py --pretrained_path /sdcc/u/dyhan316/misc_VAE/BT_weights/BT_weights_no_norm5//ABCDbt128a102.pth --mode finetuning --train_num 100 --layer_control freeze --stratify strat --random_seed 0 --task ABCD_sex --input_option yAware --batch_size 64 --save_path finetune_test_same_seed --binary_class True --run_where sdcc"
+{"epoch": 0, "training_loss": 70.47709608078003, "training_acc": 47.0, "val_loss": 17.543500661849976, "val_acc": 52.0}
+{"epoch": 1, "training_loss": 70.52566838264465, "training_acc": 47.0, "val_loss": 17.52704232931137, "val_acc": 52.0}
+{"epoch": 2, "training_loss": 70.34300541877747, "training_acc": 47.0, "val_loss": 17.51258075237274, "val_acc": 52.0}
+{"epoch": 3, "training_loss": 70.26964998245239, "training_acc": 47.0, "val_loss": 17.499062418937683, "val_acc": 52.0}
+{"epoch": 4, "training_loss": 70.22598624229431, "training_acc": 47.0, "val_loss": 17.487069964408875, "val_acc": 52.0}
+{"epoch": 5, "training_loss": 70.16572713851929, "training_acc": 47.0, "val_loss": 17.47547835111618, "val_acc": 52.0}

@@ -1,0 +1,16 @@
+"main_modify.py --pretrained_path None --mode finetuning --train_num 100 --layer_control freeze --stratify strat --random_seed 4 --task ADNI_sex --input_option yAware --learning_rate 5e0 --batch_size 16 --weight_decay 1e-5 --BN inst --save_path finetune_results_InstanceBN"
+{"epoch": 0, "training_loss": 457.63427803039554, "training_acc": 56.0, "val_loss": 201.64020568847656, "val_acc": 48.0}
+{"epoch": 1, "training_loss": 332.9502001953125, "training_acc": 40.0, "val_loss": 5.687070617675781, "val_acc": 48.0}
+{"epoch": 2, "training_loss": 71.87506340026856, "training_acc": 48.0, "val_loss": 43.86572608947754, "val_acc": 52.0}
+{"epoch": 3, "training_loss": 91.84261657714843, "training_acc": 50.0, "val_loss": 129.57198760986327, "val_acc": 52.0}
+{"epoch": 4, "training_loss": 159.58307952880858, "training_acc": 48.0, "val_loss": 194.60252868652344, "val_acc": 52.0}
+{"epoch": 5, "training_loss": 119.88339431762695, "training_acc": 56.0, "val_loss": 2.6540540218353272, "val_acc": 52.0}
+{"epoch": 6, "training_loss": 49.219722747802734, "training_acc": 52.0, "val_loss": 45.85967987060547, "val_acc": 52.0}
+{"epoch": 7, "training_loss": 78.37552825927735, "training_acc": 48.0, "val_loss": 198.41237121582031, "val_acc": 48.0}
+{"epoch": 8, "training_loss": 199.6793310546875, "training_acc": 56.0, "val_loss": 356.39882690429687, "val_acc": 52.0}
+{"epoch": 9, "training_loss": 200.85465759277344, "training_acc": 54.0, "val_loss": 78.56842102050781, "val_acc": 52.0}
+{"epoch": 10, "training_loss": 122.7166259765625, "training_acc": 54.0, "val_loss": 11.76355354309082, "val_acc": 48.0}
+{"epoch": 11, "training_loss": 246.88111740112305, "training_acc": 46.0, "val_loss": 413.34800903320314, "val_acc": 48.0}
+{"epoch": 12, "training_loss": 320.04994506835936, "training_acc": 44.0, "val_loss": 217.28426818847657, "val_acc": 52.0}
+{"epoch": 13, "training_loss": 187.36451354980468, "training_acc": 60.0, "val_loss": 158.18722564697265, "val_acc": 52.0}
+{"epoch": 14, "training_loss": 257.80114990234375, "training_acc": 38.0, "val_loss": 17.58481544494629, "val_acc": 52.0}

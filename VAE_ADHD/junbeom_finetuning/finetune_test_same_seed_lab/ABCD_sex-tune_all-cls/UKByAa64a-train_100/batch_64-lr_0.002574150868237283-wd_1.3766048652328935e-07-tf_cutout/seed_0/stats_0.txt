@@ -1,0 +1,6 @@
+"main_optuna_fix.py --pretrained_path /scratch/connectome/study_group/VAE_ADHD/junbeom_weights/UKByAa64a.pth --mode finetuning --train_num 100 --layer_control tune_all --stratify strat --random_seed 0 --task ABCD_sex --input_option yAware --batch_size 64 --save_path finetune_test_same_seed_lab --binary_class True --run_where lab"
+{"epoch": 0, "training_loss": 70.30948901176453, "training_acc": 50.0, "val_loss": 17.331302165985107, "val_acc": 56.0}
+{"epoch": 1, "training_loss": 70.72475910186768, "training_acc": 52.0, "val_loss": 17.574630677700043, "val_acc": 56.0}
+{"epoch": 2, "training_loss": 70.2295184135437, "training_acc": 46.0, "val_loss": 17.532309889793396, "val_acc": 56.0}
+{"epoch": 3, "training_loss": 69.80551528930664, "training_acc": 46.0, "val_loss": 17.390544712543488, "val_acc": 56.0}
+{"epoch": 4, "training_loss": 69.35531306266785, "training_acc": 50.0, "val_loss": 17.177636921405792, "val_acc": 56.0}

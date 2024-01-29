@@ -1,0 +1,16 @@
+"main_optuna_fix.py --pretrained_path /scratch/connectome/study_group/VAE_ADHD/junbeom_weights/UKByAa64a.pth --mode finetuning --train_num 100 --layer_control freeze --stratify strat --random_seed 0 --task ABCD_sex --input_option yAware --batch_size 64 --save_path finetune_test_same_seed_lab --binary_class True --run_where lab"
+{"epoch": 0, "training_loss": 1144.0561180114746, "training_acc": 46.0, "val_loss": 229.71594333648682, "val_acc": 52.0}
+{"epoch": 1, "training_loss": 1116.4126205444336, "training_acc": 53.0, "val_loss": 595.3762054443359, "val_acc": 48.0}
+{"epoch": 2, "training_loss": 2240.340217590332, "training_acc": 47.0, "val_loss": 165.11690616607666, "val_acc": 48.0}
+{"epoch": 3, "training_loss": 780.5284690856934, "training_acc": 51.0, "val_loss": 434.6003532409668, "val_acc": 52.0}
+{"epoch": 4, "training_loss": 1651.768165588379, "training_acc": 53.0, "val_loss": 387.80016899108887, "val_acc": 52.0}
+{"epoch": 5, "training_loss": 1151.3992500305176, "training_acc": 53.0, "val_loss": 67.65503287315369, "val_acc": 48.0}
+{"epoch": 6, "training_loss": 622.7577247619629, "training_acc": 47.0, "val_loss": 200.17802715301514, "val_acc": 48.0}
+{"epoch": 7, "training_loss": 679.4311647415161, "training_acc": 47.0, "val_loss": 141.4355993270874, "val_acc": 52.0}
+{"epoch": 8, "training_loss": 551.6026382446289, "training_acc": 53.0, "val_loss": 244.70093250274658, "val_acc": 52.0}
+{"epoch": 9, "training_loss": 790.7002449035645, "training_acc": 53.0, "val_loss": 28.187653422355652, "val_acc": 52.0}
+{"epoch": 10, "training_loss": 304.4697570800781, "training_acc": 52.0, "val_loss": 192.32523441314697, "val_acc": 48.0}
+{"epoch": 11, "training_loss": 708.6558170318604, "training_acc": 47.0, "val_loss": 28.150928020477295, "val_acc": 52.0}
+{"epoch": 12, "training_loss": 185.38591480255127, "training_acc": 54.0, "val_loss": 91.65456891059875, "val_acc": 52.0}
+{"epoch": 13, "training_loss": 203.517151594162, "training_acc": 59.0, "val_loss": 104.93096113204956, "val_acc": 48.0}
+{"epoch": 14, "training_loss": 451.5683078765869, "training_acc": 47.0, "val_loss": 27.8890460729599, "val_acc": 52.0}

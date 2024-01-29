@@ -1,0 +1,3 @@
+"main_modify.py --pretrained_path /sdcc/u/dyhan316/misc_VAE/junbeom_weights/UKByAa64a.pth --mode finetuning --train_num 100 --layer_control freeze --stratify strat --random_seed 0 --task ADNI_sex --input_option yAware --learning_rate 5e0 --batch_size 16 --weight_decay 1e-5 --BN inst --save_path finetune_results_InstanceBN"
+{"epoch": 0, "training_loss": 488.77079634666444, "training_acc": 50.0, "val_loss": 307.8663671875, "val_acc": 48.0}
+{"epoch": 1, "training_loss": 471.395751953125, "training_acc": 52.0, "val_loss": 476.847060546875, "val_acc": 52.0}

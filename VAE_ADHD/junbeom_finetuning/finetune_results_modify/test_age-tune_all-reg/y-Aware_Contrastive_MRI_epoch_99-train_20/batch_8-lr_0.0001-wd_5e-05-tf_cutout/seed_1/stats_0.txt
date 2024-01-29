@@ -1,0 +1,4 @@
+"main_modify.py --pretrained_path ./weights/y-Aware_Contrastive_MRI_epoch_99.pth --mode finetuning --train_num 20 --layer_control tune_all --stratify strat --random_seed 1 --task test_age --input_option yAware --BN none --binary_class True --save_path finetune_results_modify"
+{"epoch": 0, "training_loss": 5483.42265625, "training_acc": 0.0, "val_loss": 4394.99267578125, "val_acc": 0.0}
+{"epoch": 1, "training_loss": 4605.1671875, "training_acc": 0.0, "val_loss": 105.0946273803711, "val_acc": 0.0}
+{"epoch": 2, "training_loss": 4596.533383941651, "training_acc": 0.0, "val_loss": 531.7059936523438, "val_acc": 0.0}

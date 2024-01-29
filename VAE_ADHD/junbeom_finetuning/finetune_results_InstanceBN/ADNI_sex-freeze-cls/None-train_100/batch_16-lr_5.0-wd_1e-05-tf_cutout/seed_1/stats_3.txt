@@ -1,0 +1,17 @@
+"main_modify.py --pretrained_path None --mode finetuning --train_num 100 --layer_control freeze --stratify strat --random_seed 1 --task ADNI_sex --input_option yAware --learning_rate 5e0 --batch_size 16 --weight_decay 1e-5 --BN inst --save_path finetune_results_InstanceBN"
+{"epoch": 0, "training_loss": 590.1183262443542, "training_acc": 49.0, "val_loss": 188.39133728027343, "val_acc": 48.0}
+{"epoch": 1, "training_loss": 351.00630554199216, "training_acc": 41.0, "val_loss": 463.64698608398436, "val_acc": 52.0}
+{"epoch": 2, "training_loss": 423.2308459472656, "training_acc": 49.0, "val_loss": 461.45776000976565, "val_acc": 48.0}
+{"epoch": 3, "training_loss": 282.6351641845703, "training_acc": 49.0, "val_loss": 102.96210479736328, "val_acc": 48.0}
+{"epoch": 4, "training_loss": 106.25598175048827, "training_acc": 43.0, "val_loss": 12.534716987609864, "val_acc": 48.0}
+{"epoch": 5, "training_loss": 109.26215368270874, "training_acc": 45.0, "val_loss": 42.182202911376955, "val_acc": 48.0}
+{"epoch": 6, "training_loss": 53.738304138183594, "training_acc": 51.0, "val_loss": 139.25188720703125, "val_acc": 52.0}
+{"epoch": 7, "training_loss": 83.65170928955078, "training_acc": 41.0, "val_loss": 154.35196044921875, "val_acc": 48.0}
+{"epoch": 8, "training_loss": 119.44583801269532, "training_acc": 49.0, "val_loss": 11.49856948852539, "val_acc": 48.0}
+{"epoch": 9, "training_loss": 180.8266403198242, "training_acc": 47.0, "val_loss": 202.1593487548828, "val_acc": 48.0}
+{"epoch": 10, "training_loss": 243.9964404296875, "training_acc": 35.0, "val_loss": 201.24533264160155, "val_acc": 48.0}
+{"epoch": 11, "training_loss": 237.95500732421874, "training_acc": 43.0, "val_loss": 70.63915878295899, "val_acc": 48.0}
+{"epoch": 12, "training_loss": 181.35322387695314, "training_acc": 51.0, "val_loss": 172.68902893066405, "val_acc": 52.0}
+{"epoch": 13, "training_loss": 258.0517279052734, "training_acc": 43.0, "val_loss": 239.85339599609375, "val_acc": 52.0}
+{"epoch": 14, "training_loss": 403.84820678710935, "training_acc": 49.0, "val_loss": 227.76130004882813, "val_acc": 48.0}
+{"epoch": 15, "training_loss": 188.01274963378907, "training_acc": 51.0, "val_loss": 50.58604248046875, "val_acc": 52.0}

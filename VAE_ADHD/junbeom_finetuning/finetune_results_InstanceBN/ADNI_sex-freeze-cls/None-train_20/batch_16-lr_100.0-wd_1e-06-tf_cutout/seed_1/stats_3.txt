@@ -1,0 +1,23 @@
+"main_modify.py --pretrained_path None --mode finetuning --train_num 20 --layer_control freeze --stratify strat --random_seed 1 --task ADNI_sex --input_option yAware --learning_rate 1e2 --batch_size 16 --weight_decay 1e-6 --BN inst --save_path finetune_results_InstanceBN"
+{"epoch": 0, "training_loss": 4267.038073730469, "training_acc": 50.0, "val_loss": 9410.7353515625, "val_acc": 40.0}
+{"epoch": 1, "training_loss": 9837.051171875, "training_acc": 40.0, "val_loss": 8380.728515625, "val_acc": 60.0}
+{"epoch": 2, "training_loss": 10020.940966796876, "training_acc": 50.0, "val_loss": 153.94444274902344, "val_acc": 40.0}
+{"epoch": 3, "training_loss": 540.3631103515625, "training_acc": 50.0, "val_loss": 2168.967529296875, "val_acc": 60.0}
+{"epoch": 4, "training_loss": 2912.7552734375, "training_acc": 50.0, "val_loss": 624.4396362304688, "val_acc": 40.0}
+{"epoch": 5, "training_loss": 781.057470703125, "training_acc": 50.0, "val_loss": 1466.8729248046875, "val_acc": 60.0}
+{"epoch": 6, "training_loss": 1824.4194580078124, "training_acc": 50.0, "val_loss": 356.96295166015625, "val_acc": 60.0}
+{"epoch": 7, "training_loss": 1435.5021484375, "training_acc": 40.0, "val_loss": 3987.926513671875, "val_acc": 40.0}
+{"epoch": 8, "training_loss": 3045.8216857910156, "training_acc": 50.0, "val_loss": 2367.8994140625, "val_acc": 60.0}
+{"epoch": 9, "training_loss": 3553.775, "training_acc": 50.0, "val_loss": 1185.243896484375, "val_acc": 60.0}
+{"epoch": 10, "training_loss": 2375.11669921875, "training_acc": 40.0, "val_loss": 5817.04052734375, "val_acc": 40.0}
+{"epoch": 11, "training_loss": 4838.7703125, "training_acc": 50.0, "val_loss": 2766.591552734375, "val_acc": 40.0}
+{"epoch": 12, "training_loss": 1991.5400634765624, "training_acc": 50.0, "val_loss": 1263.5091552734375, "val_acc": 60.0}
+{"epoch": 13, "training_loss": 1306.2695373535157, "training_acc": 50.0, "val_loss": 3503.0390625, "val_acc": 40.0}
+{"epoch": 14, "training_loss": 2965.03056640625, "training_acc": 50.0, "val_loss": 3684.815185546875, "val_acc": 40.0}
+{"epoch": 15, "training_loss": 2790.759750366211, "training_acc": 50.0, "val_loss": 2411.673095703125, "val_acc": 60.0}
+{"epoch": 16, "training_loss": 3217.323291015625, "training_acc": 50.0, "val_loss": 2412.98974609375, "val_acc": 60.0}
+{"epoch": 17, "training_loss": 2412.5767208099364, "training_acc": 55.0, "val_loss": 4395.2255859375, "val_acc": 40.0}
+{"epoch": 18, "training_loss": 3746.870068359375, "training_acc": 50.0, "val_loss": 5571.9306640625, "val_acc": 40.0}
+{"epoch": 19, "training_loss": 3982.5109375, "training_acc": 50.0, "val_loss": 1855.486328125, "val_acc": 60.0}
+{"epoch": 20, "training_loss": 2874.91806640625, "training_acc": 50.0, "val_loss": 4588.16455078125, "val_acc": 60.0}
+{"epoch": 21, "training_loss": 5722.383984375, "training_acc": 50.0, "val_loss": 1601.9365234375, "val_acc": 60.0}
