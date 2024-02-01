@@ -141,7 +141,7 @@ for(seed_ind in 1:length(seeds)){
                          W.hat=NULL, 
                          compute.oob.predictions = FALSE, 
                          #clusters = site_id,
-                         num.trees = 5000, 
+                         num.trees = 2000, 
                          tune.parameters = 'all',
                          num.threads = 16,
                          seed = seeds[seed_ind])
@@ -172,8 +172,34 @@ var_imp = c(variable_importance(forest_merged))
 names(var_imp) = as.character(seq(1:10))
 sorted_var_imp = sort(var_imp, decreasing=TRUE)
 sorted_var_imp = data.frame(variable=names(sorted_var_imp), importance=sorted_var_imp)
+print(sorted_var_imp)
 
 
 # best_linear_projection
 best_linear_projection(forest_merged, X)
 
+
+
+
+########################## @ Check with Python data ##########################
+W = as.vector(read.csv('./NEW/W.csv')[,1])
+
+# no TE & no HTE
+Y = read.csv('./NEW/Y_noTE_noHTE.csv')
+X = as.matrix(read.csv('./NEW/X_noHTE.csv'))
+
+# TE & no HTE
+Y = read.csv('./NEW/Y_TE_noHTE.csv')
+X = as.matrix(read.csv('./NEW/X_noHTE.csv'))
+
+# TE & HTE (only protective factors)
+Y = read.csv('./NEW/Y_TE_protHTE.csv')
+X = as.matrix(read.csv('./NEW/X_TE_protHTE.csv'))
+
+# TE & HTE (only risk factors)
+Y = read.csv('./NEW/Y_TE_riskHTE.csv')
+X = as.matrix(read.csv('./NEW/X_TE_riskHTE.csv'))
+
+# TE & HTE (both protective and risk factors)
+Y = read.csv('./NEW/Y_TE_bothHTE.csv')
+X = as.matrix(read.csv('./NEW/X_TE_bothHTE.csv'))
